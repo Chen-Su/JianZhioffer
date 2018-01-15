@@ -34,19 +34,19 @@ void transString(string &str)
 	}
 }
 
-int main()
-{
-	string str;
-
-	while(true)
-	{
-		getline(cin, str);
-		cout << str << endl;
-		cout << "Trans : ";
-		transString(str);
-		cout << str << endl;
-	}
-
-
-	return 0;
-}
+//int main()
+//{
+//	string str;
+//
+//	while(true)
+//	{
+//		getline(cin, str);
+//		cout << str << endl;
+//		cout << "Trans : ";
+//		transString(str);
+//		cout << str << endl;
+//	}
+//
+//
+//	return 0;
+//}
