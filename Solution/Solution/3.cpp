@@ -52,22 +52,22 @@ bool isExist_text(int *matrix, int rows, int cols, int number)
 	return found;
 }
 
-int main()
-{
-	int data[] = {
-		1, 2, 8, 9 ,
-		2, 4, 9, 12 ,
-		4, 7, 10, 13 ,
-		6, 8, 11, 15 ,
-	};
-	int rows, cols;
-	rows = cols = 4;
-
-	while (true)
-	{
-		int testnum;
-		cin >> testnum;
-		auto res = isExist(data, cols, rows, testnum);
-		cout << res << endl;
-	}
-}
+//int main()
+//{
+//	int data[] = {
+//		1, 2, 8, 9 ,
+//		2, 4, 9, 12 ,
+//		4, 7, 10, 13 ,
+//		6, 8, 11, 15 ,
+//	};
+//	int rows, cols;
+//	rows = cols = 4;
+//
+//	while (true)
+//	{
+//		int testnum;
+//		cin >> testnum;
+//		auto res = isExist(data, cols, rows, testnum);
+//		cout << res << endl;
+//	}
+//}
