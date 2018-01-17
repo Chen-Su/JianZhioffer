@@ -18,36 +18,36 @@ private:
 };
 
 
-
-int main()
-{
-	CQueue<int> cq;
-
-	try {
-		cout << cq.deleteHead();
-	}
-	catch (std::exception &e)
-	{
-		cout << e.what() << endl;
-	}
-
-	cq.appendTail(1);
-	cq.appendTail(2);
-	cq.appendTail(3);
-
-	try {
-		cout << cq.deleteHead();
-		cout << cq.deleteHead();
-		cout << cq.deleteHead();
-		cout << cq.deleteHead();
-	}
-	catch (std::exception &e)
-	{
-		cout << e.what() << endl;
-	}
-	
-	return 0;
-}
+//
+//int main()
+//{
+//	CQueue<int> cq;
+//
+//	try {
+//		cout << cq.deleteHead();
+//	}
+//	catch (std::exception &e)
+//	{
+//		cout << e.what() << endl;
+//	}
+//
+//	cq.appendTail(1);
+//	cq.appendTail(2);
+//	cq.appendTail(3);
+//
+//	try {
+//		cout << cq.deleteHead();
+//		cout << cq.deleteHead();
+//		cout << cq.deleteHead();
+//		cout << cq.deleteHead();
+//	}
+//	catch (std::exception &e)
+//	{
+//		cout << e.what() << endl;
+//	}
+//	
+//	return 0;
+//}
 
 template<typename T>
 CQueue<T>::CQueue(void) : stack1(stack<T>()), stack2(stack<T>())
