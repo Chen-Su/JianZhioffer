@@ -5,5 +5,7 @@
     <ClCompile Include="3.cpp" />
     <ClCompile Include="4.cpp" />
     <ClCompile Include="5.cpp" />
+    <ClCompile Include="6.cpp" />
+    <ClCompile Include="7.cpp" />
   </ItemGroup>
 </Project>

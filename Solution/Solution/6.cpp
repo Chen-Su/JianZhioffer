@@ -20,6 +20,8 @@ BinaryTreeNode* ConstructCore(int *startPreorder, int *endPreorder, int *startIn
 
 	if (startPreorder == endPreorder)
 	// 必要吗？
+	// 书上的代码是以叶子节点作为递归出口
+	// 而我的代码是以叶子的空孩子为递归出口
 	{
 		if (startInorder == endInorder && *startPreorder == *startInorder)
 			return root;
