@@ -11,5 +11,6 @@
     <ClCompile Include="9.cpp" />
     <ClCompile Include="10.cpp" />
     <ClCompile Include="11.cpp" />
+    <ClCompile Include="12.cpp" />
   </ItemGroup>
 </Project>
