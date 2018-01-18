@@ -1,3 +1,7 @@
+/*
+ * O(1)时间删除单向链表中的非尾节点。
+ * 很好的思路。
+ */
 #include <iostream>
 #include <vector>
 
@@ -15,7 +19,7 @@ void DeleteNode(ListNode **pListHead, ListNode *pToBeDeleted)
 		return;
 
 	if (*pListHead == pToBeDeleted && pToBeDeleted->m_pNext == NULL)
-	// ֻ��һ���ڵ�����
+	// Ö»ÓÐÒ»¸ö½ÚµãµÄÇé¿ö
 	{
 		delete pToBeDeleted;
 		pToBeDeleted = NULL;
@@ -23,7 +27,7 @@ void DeleteNode(ListNode **pListHead, ListNode *pToBeDeleted)
 		return;
 	}
 
-	// �ȿ���ɾ�����һ���ڵ�����
+	// ÏÈ¿¼ÂÇÉ¾³ý×îºóÒ»¸ö½ÚµãµÄÇé¿ö
 	if (pToBeDeleted->m_pNext == NULL)
 	{
 		ListNode *pPreNode = *pListHead;
