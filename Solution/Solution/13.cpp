@@ -63,48 +63,48 @@ void PrintList(ListNode **pListHead)
 	cout << endl;
 }
 
-int main()
-{
-	int n;
-	cout << "Input node num : ";
-	cin >> n;
-
-	ListNode **pListHead = NULL, *pHeadNode = NULL, *pcurNode = NULL;
-	vector<ListNode *> pListNodes;
-	
-	bool isFirst = true;
-	while (n--)
-	{
-		ListNode *ptmpNode = new ListNode;
-		cin >> ptmpNode->m_nValue;
-		ptmpNode->m_pNext = NULL;
-		if (isFirst)
-		{
-			pHeadNode = ptmpNode;
-			pListHead = &pHeadNode;
-			pcurNode = ptmpNode;
-			isFirst = false;
-		}
-		else
-		{
-			pcurNode->m_pNext = ptmpNode;
-			pcurNode = ptmpNode;
-		}
-		pListNodes.push_back(pcurNode);
-	}
-
-	PrintList(pListHead);
-
-
-	while (true)
-	{
-		int deleteN;
-		cout << "Input element order you wanna delete : ";
-		cin >> deleteN;
-		DeleteNode(pListHead, pListNodes[deleteN]);
-		PrintList(pListHead);
-	}
-
-
-	return 0;
-}
+//int main()
+//{
+//	int n;
+//	cout << "Input node num : ";
+//	cin >> n;
+//
+//	ListNode **pListHead = NULL, *pHeadNode = NULL, *pcurNode = NULL;
+//	vector<ListNode *> pListNodes;
+//	
+//	bool isFirst = true;
+//	while (n--)
+//	{
+//		ListNode *ptmpNode = new ListNode;
+//		cin >> ptmpNode->m_nValue;
+//		ptmpNode->m_pNext = NULL;
+//		if (isFirst)
+//		{
+//			pHeadNode = ptmpNode;
+//			pListHead = &pHeadNode;
+//			pcurNode = ptmpNode;
+//			isFirst = false;
+//		}
+//		else
+//		{
+//			pcurNode->m_pNext = ptmpNode;
+//			pcurNode = ptmpNode;
+//		}
+//		pListNodes.push_back(pcurNode);
+//	}
+//
+//	PrintList(pListHead);
+//
+//
+//	while (true)
+//	{
+//		int deleteN;
+//		cout << "Input element order you wanna delete : ";
+//		cin >> deleteN;
+//		DeleteNode(pListHead, pListNodes[deleteN]);
+//		PrintList(pListHead);
+//	}
+//
+//
+//	return 0;
+//}
