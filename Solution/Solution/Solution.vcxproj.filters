@@ -18,6 +18,8 @@
     <ClCompile Include="16.cpp" />
     <ClCompile Include="17.cpp" />
     <ClCompile Include="18.cpp" />
+    <ClCompile Include="19.cpp" />
+    <ClCompile Include="BinaryTree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h" />

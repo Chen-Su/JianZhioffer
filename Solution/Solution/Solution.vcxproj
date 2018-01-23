@@ -156,6 +156,7 @@
     <ClCompile Include="16.cpp" />
     <ClCompile Include="17.cpp" />
     <ClCompile Include="18.cpp" />
+    <ClCompile Include="19.cpp" />
     <ClCompile Include="3.cpp" />
     <ClCompile Include="4.cpp" />
     <ClCompile Include="5.cpp" />
@@ -163,6 +164,7 @@
     <ClCompile Include="7.cpp" />
     <ClCompile Include="8.cpp" />
     <ClCompile Include="9.cpp" />
+    <ClCompile Include="BinaryTree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h" />
