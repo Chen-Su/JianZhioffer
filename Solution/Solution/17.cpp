@@ -67,62 +67,62 @@ void PrintList17(ListNode *pListHead)
 	}
 	cout << endl;
 }
-
-int main()
-{
-	ListNode *pListHead = NULL, *pCurNode = NULL;
-	int n;
-	cin >> n;
-	bool isFirst = true;
-	while (n--)
-	{
-		ListNode *ptmp = new ListNode;
-		cin >> ptmp->m_nValue;
-		ptmp->m_pNext = NULL;
-		if (isFirst)
-		{
-			pListHead = ptmp;
-			pCurNode = ptmp;
-			isFirst = false;
-		}
-		else
-		{
-			pCurNode->m_pNext = ptmp;
-			pCurNode = pCurNode->m_pNext;
-		}
-	}
-
-	PrintList17(pListHead);
-
-	ListNode *pListHead2 = NULL;
-	pCurNode = NULL;
-	cin >> n;
-	isFirst = true;
-	while (n--)
-	{
-		ListNode *ptmp = new ListNode;
-		cin >> ptmp->m_nValue;
-		ptmp->m_pNext = NULL;
-		if (isFirst)
-		{
-			pListHead2 = ptmp;
-			pCurNode = ptmp;
-			isFirst = false;
-		}
-		else
-		{
-			pCurNode->m_pNext = ptmp;
-			pCurNode = pCurNode->m_pNext;
-		}
-	}
-
-	PrintList17(pListHead2);
-
-	auto merge_list = MergeAsscendList(pListHead, pListHead2);
-
-
-	PrintList17(merge_list);
-
-
-	return 0;
-}
+//
+//int main()
+//{
+//	ListNode *pListHead = NULL, *pCurNode = NULL;
+//	int n;
+//	cin >> n;
+//	bool isFirst = true;
+//	while (n--)
+//	{
+//		ListNode *ptmp = new ListNode;
+//		cin >> ptmp->m_nValue;
+//		ptmp->m_pNext = NULL;
+//		if (isFirst)
+//		{
+//			pListHead = ptmp;
+//			pCurNode = ptmp;
+//			isFirst = false;
+//		}
+//		else
+//		{
+//			pCurNode->m_pNext = ptmp;
+//			pCurNode = pCurNode->m_pNext;
+//		}
+//	}
+//
+//	PrintList17(pListHead);
+//
+//	ListNode *pListHead2 = NULL;
+//	pCurNode = NULL;
+//	cin >> n;
+//	isFirst = true;
+//	while (n--)
+//	{
+//		ListNode *ptmp = new ListNode;
+//		cin >> ptmp->m_nValue;
+//		ptmp->m_pNext = NULL;
+//		if (isFirst)
+//		{
+//			pListHead2 = ptmp;
+//			pCurNode = ptmp;
+//			isFirst = false;
+//		}
+//		else
+//		{
+//			pCurNode->m_pNext = ptmp;
+//			pCurNode = pCurNode->m_pNext;
+//		}
+//	}
+//
+//	PrintList17(pListHead2);
+//
+//	auto merge_list = MergeAsscendList(pListHead, pListHead2);
+//
+//
+//	PrintList17(merge_list);
+//
+//
+//	return 0;
+//}

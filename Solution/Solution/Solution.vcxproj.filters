@@ -17,5 +17,9 @@
     <ClCompile Include="15.cpp" />
     <ClCompile Include="16.cpp" />
     <ClCompile Include="17.cpp" />
+    <ClCompile Include="18.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BinaryTree.h" />
   </ItemGroup>
 </Project>
