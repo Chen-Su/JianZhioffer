@@ -21,8 +21,11 @@
     <ClCompile Include="19.cpp" />
     <ClCompile Include="BinaryTree.cpp" />
     <ClCompile Include="20.cpp" />
+    <ClCompile Include="MyStack.cpp" />
+    <ClCompile Include="21.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h" />
+    <ClInclude Include="MyStack.h" />
   </ItemGroup>
 </Project>

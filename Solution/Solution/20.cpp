@@ -70,18 +70,18 @@ void Test(int rows, int cols)
 	delete[] matrix;
 }
 
-int main()
-{
-	Test(1, 1);
-	Test(1, 2);
-	Test(2, 2);
-	Test(2, 3);
-	Test(3, 2);
-	Test(3, 3);
-	Test(4, 4);
-
-
-
-
-	return 0;
-}
+//int main()
+//{
+//	Test(1, 1);
+//	Test(1, 2);
+//	Test(2, 2);
+//	Test(2, 3);
+//	Test(3, 2);
+//	Test(3, 3);
+//	Test(4, 4);
+//
+//
+//
+//
+//	return 0;
+//}
