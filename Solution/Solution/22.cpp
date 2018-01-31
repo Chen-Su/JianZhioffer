@@ -79,13 +79,13 @@ bool isRightOrderText(vector<int> &push_order, vector<int> &pop_order)
 	}
 }
 
-int main()
-{
-	vector<int> push_order({ 1, 2, 3, 4, 5 });
-	vector<int> pop_order({ 4,5,3,2,1 });
-
-	//cout << isRightOrder(push_order, pop_order) << endl;
-	cout << isRightOrderText(push_order, pop_order) << endl;
-	return 0;
-}
- 
+//int main()
+//{
+//	vector<int> push_order({ 1, 2, 3, 4, 5 });
+//	vector<int> pop_order({ 4,5,3,2,1 });
+//
+//	//cout << isRightOrder(push_order, pop_order) << endl;
+//	cout << isRightOrderText(push_order, pop_order) << endl;
+//	return 0;
+//}
+// 
