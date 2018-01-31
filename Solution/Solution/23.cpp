@@ -26,10 +26,10 @@ void PrintbyLevel(BinaryTreeNode *root)
 	}
 }
 
-int main()
-{
-	auto root = BuildBinaryTree();
-
-	PrintbyLevel(root);
-
-}
+//int main()
+//{
+//	auto root = BuildBinaryTree();
+//
+//	PrintbyLevel(root);
+//
+//}
