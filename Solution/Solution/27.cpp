@@ -65,12 +65,13 @@ void PrintBiOrderList(BinaryTreeNode *phead, BinaryTreeNode *ptail)
 		cout << phead->m_nValue << ' ';
 		phead = phead->m_pRight;
 	}
-
+	cout << endl;
 	while (ptail)
 	{
 		cout << ptail->m_nValue << ' ';
 		ptail = ptail->m_pLeft;
 	}
+	cout << endl;
 }
 
 //int main()
@@ -78,8 +79,8 @@ void PrintBiOrderList(BinaryTreeNode *phead, BinaryTreeNode *ptail)
 //	BinaryTreeNode *proot = BuildBinaryTree();
 //	BinaryTreeNode *phead, *ptail;
 //	phead = ptail = NULL;
-//	//TransBST2List(proot, &phead, &ptail);
-//	TransText(proot, &phead, &ptail);
+//	TransBST2List(proot, &phead, &ptail);
+//	//TransText(proot, &phead, &ptail);
 //	PrintBiOrderList(phead, ptail);
 //
 //	return 0;
