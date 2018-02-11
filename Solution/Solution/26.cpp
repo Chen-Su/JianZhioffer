@@ -129,13 +129,13 @@ void PrintComplexList(ComplexListNode *pli)
 	}
 }
 
-int main()
-{
-	auto pli_ori = CreateComplexList();
-	PrintComplexList(pli_ori);
-	//auto pli_cpy = CopyComplexList(pli_ori);
-	auto pli_cpy = CopyComplexListBetter(pli_ori);
-	PrintComplexList(pli_cpy);
-
-	return 0;
-}
+//int main()
+//{
+//	auto pli_ori = CreateComplexList();
+//	PrintComplexList(pli_ori);
+//	//auto pli_cpy = CopyComplexList(pli_ori);
+//	auto pli_cpy = CopyComplexListBetter(pli_ori);
+//	PrintComplexList(pli_cpy);
+//
+//	return 0;
+//}
