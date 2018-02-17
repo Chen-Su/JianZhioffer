@@ -80,6 +80,7 @@ int GetUglyNumber(int index)
 
 	return ugly_nums.back();
 }
+
 //
 //int main()
 //{
@@ -88,8 +89,7 @@ int GetUglyNumber(int index)
 //		int n;
 //		cin >> n;
 //		cout << NthUglyNumber(n) << endl;
-//		cout << GetUglyNumber(n) << endl;
-//		
+//		cout << GetUglyNumber(n) << endl;	
 //	}
 //
 //	return 0;
