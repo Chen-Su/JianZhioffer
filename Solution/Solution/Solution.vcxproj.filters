@@ -33,6 +33,9 @@
     <ClCompile Include="29.cpp" />
     <ClCompile Include="30.cpp" />
     <ClCompile Include="31.cpp" />
+    <ClCompile Include="32.cpp" />
+    <ClCompile Include="33.cpp" />
+    <ClCompile Include="34.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h" />
