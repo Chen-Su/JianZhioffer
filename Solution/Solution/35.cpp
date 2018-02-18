@@ -30,12 +30,12 @@ char FirstOnceChar(string &str)
 	return res;
 }
 
-int main()
-{
-	string str;
-	cin >> str;
-
-	cout << FirstOnceChar(str) << endl;
-
-	return 0;
-}
+//int main()
+//{
+//	string str;
+//	cin >> str;
+//
+//	cout << FirstOnceChar(str) << endl;
+//
+//	return 0;
+//}

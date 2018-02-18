@@ -1,12 +1,8 @@
 #include <iostream>
+#include "MyList.h"
 
 using namespace std;
 
-struct ListNode
-{
-	int m_nValue;
-	ListNode *m_pNext;
-};
 
 ListNode* GetKthLastNode(ListNode *pListHead, int k)
 {
@@ -38,17 +34,6 @@ ListNode* GetKthLastNode(ListNode *pListHead, int k)
 	return pNode2;
 }
 
-void PrintList(ListNode *pListHead)
-{
-	ListNode *pCurNode = pListHead;
-	while (pCurNode)
-	{
-		cout << pCurNode->m_nValue << '\t';
-		pCurNode = pCurNode->m_pNext;
-	}
-	cout << endl;
-}
-
 //int main()
 //{
 //	ListNode *pListHead = NULL, *pCurNode = NULL;
@@ -58,7 +43,7 @@ void PrintList(ListNode *pListHead)
 //	while (n--)
 //	{
 //		ListNode *ptmp = new ListNode;
-//		cin >> ptmp->m_nValue;
+//		cin >> ptmp->m_nKey;
 //		ptmp->m_pNext = NULL;
 //		if (isFirst)
 //		{
@@ -81,7 +66,7 @@ void PrintList(ListNode *pListHead)
 //		cin >> k;
 //		try {
 //			ListNode *pNode = GetKthLastNode(pListHead, k);
-//			cout << pNode->m_nValue << endl;
+//			cout << pNode->m_nKey << endl;
 //		}
 //		catch(exception &e)
 //		{

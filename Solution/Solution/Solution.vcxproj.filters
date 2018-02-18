@@ -37,9 +37,13 @@
     <ClCompile Include="33.cpp" />
     <ClCompile Include="34.cpp" />
     <ClCompile Include="35.cpp" />
+    <ClCompile Include="36.cpp" />
+    <ClCompile Include="37.cpp" />
+    <ClCompile Include="MyList.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="MyStack.h" />
+    <ClInclude Include="MyList.h" />
   </ItemGroup>
 </Project>
