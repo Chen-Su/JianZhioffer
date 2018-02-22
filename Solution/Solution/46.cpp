@@ -1,6 +1,7 @@
 /*
- * 分别使用了构造函数与静态成员变量(S1),递归调用虚函数(S2), 函数指针(S3)
+ * 分别使用了构造函数与静态成员变量(S1),递归调用虚函数(S2), 函数指针(S3), 模板编程
  * S1利用了静态成员变量的性质， S2，S3利用同一个指针可以指向不同的对象或函数(多态)的性质
+ * S4利用了非类型参数的模板函数(Non-type parameters for Function templates)，和模板特例化(Template specialization)（http://www.cplusplus.com/doc/oldtutorial/templates/）
  */
 #include <iostream>
 
@@ -88,6 +89,22 @@ int Solution3GetSum(int n)
 	return res;
 }
 
+// S4
+// non-type parameter for template
+template<int N>
+int GetSum()
+{
+	return GetSum<N - 1>() + N;
+}
+
+// template specialization
+template <>
+int GetSum<1>()
+{
+	return 1;
+}
+
+
 //int main()
 //{
 //	int n;
@@ -101,6 +118,9 @@ int Solution3GetSum(int n)
 //
 //	// S3
 //	cout << Solution3GetSum(n) << endl;
+//
+//	// S4
+//	cout << GetSum<100>() << endl;
 //
 //	return 0;
 //}
