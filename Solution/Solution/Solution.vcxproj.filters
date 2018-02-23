@@ -52,6 +52,7 @@
     <ClCompile Include="47.cpp" />
     <ClCompile Include="48.cpp" />
     <ClCompile Include="49.cpp" />
+    <ClCompile Include="50.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h" />
